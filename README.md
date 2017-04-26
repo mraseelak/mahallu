@@ -1,24 +1,22 @@
-# README
+# Mahallu
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+What we need to get this up and running
+Ruby version 2.3.1
+Rails version 5
 
-Things you may want to cover:
 
-* Ruby version
+## Install Ruby
+The best way to install any ruby version is using an rvm. Navigate to https://rvm.io/rvm/install to learn more about how to install for Mac OSx (and Ubuntu?).
 
-* System dependencies
+Once ruby 2.3.1 or higher is installed then fork and download this project
 
-* Configuration
+    git clone <your fork url>/mahallu
+    cd mahallu
+    gem install bundler
+    bundle install
 
-* Database creation
+`bundle install` should install all dependant gems with their versions locked with Gemfile.lock
 
-* Database initialization
+Once all the gems are installed then run tests
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rspec`
