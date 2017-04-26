@@ -1,0 +1,2 @@
+class SectretariesController < ApplicationController
+end
