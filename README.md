@@ -20,3 +20,10 @@ Once ruby 2.3.1 or higher is installed then fork and download this project
 Once all the gems are installed then run tests
 
 `rspec`
+
+Navigation:
+
+Curl command (there is no view) 
+    
+    http://localhost:3000/mosques/1
+    
